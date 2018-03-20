@@ -2,7 +2,6 @@ package controllers;
 
 import db.DBHelper;
 import models.Department;
-import models.department;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 
@@ -45,6 +44,4 @@ public class DepartmentController{
             return null;
         }, new VelocityTemplateEngine());
     }
-    }
-
 }
