@@ -1,19 +1,13 @@
-<p class ="pageHeader">All Employees</p>
+<p class ="pageHeader">All Departments</p>
 
 <div class="container">
     <table>
         <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Salary</th>
-            <th>Department</th>
+            <th>Title</th>
         </tr>
-        #foreach($employee in $employees)
+        #foreach($department in $departments)
         <tr>
-            <td>$employee.getFirstName()</td>
-            <td>$employee.getLastName()</td>
-            <td>$employee.getSalary()</td>
-            <td>$employee.getDepartment().getTitle()</td>
+            <td>$department.getTitle()</td>
         </tr>
         #end
     </table>
