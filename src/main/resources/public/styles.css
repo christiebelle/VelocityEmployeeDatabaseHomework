@@ -1,0 +1,17 @@
+body{
+ background-color: #7D2E68
+}
+
+table{
+ font-family: 'Indie Flower', cursive;
+ color: #C97B84
+ }
+
+ th, td{
+     padding: 15px;
+     text-align: left;
+     border-bottom: 3px solid #7D2E68;
+     border-left: 3px #A85751;
+     border-right; 3px #A85751;
+     background: #251351;
+     }
