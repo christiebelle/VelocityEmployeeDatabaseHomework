@@ -17,6 +17,8 @@ public class MainController {
         staticFileLocation("/public");
         EmployeesController employeesController = new EmployeesController();
         ManagersController managersController = new ManagersController();
+        DepartmentController departmentController = new DepartmentController();
+        EngineersController engineersController = new EngineersController();
 
         get("/homepage", (req, res)->{
             Map<String, Object> model = new HashMap<>();
