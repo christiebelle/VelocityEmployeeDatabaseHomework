@@ -16,6 +16,7 @@ public class MainController {
         Seeds.seedData();
         staticFileLocation("/public");
         EmployeesController employeesController = new EmployeesController();
+        ManagersController managersController = new ManagersController();
 
         get("/homepage", (req, res)->{
             Map<String, Object> model = new HashMap<>();
